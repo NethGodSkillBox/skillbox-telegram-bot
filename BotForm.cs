@@ -20,7 +20,7 @@ namespace TelegramBot
 {
     public partial class BotForm : Form
     {
-        static ITelegramBotClient bot = new TelegramBotClient("1816308511:AAF4zer3m0g8amDugQpk95Ev_Tz5shMBR6E");
+        static ITelegramBotClient bot = new TelegramBotClient(""); //Вставить сюда API бота
         private HttpClient client = new HttpClient();
         private List<HtmlTemplate> templates = new List<HtmlTemplate>();
         public BotForm()
